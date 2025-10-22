@@ -12,8 +12,8 @@ const HARDCORE_SPELL = std.Spells.create('hardcore-mode', 'hardcore-spell')
     .Tags.addUnique('hardcore-mode', 'hc-spell');
 
 const HARDCORE_TITLE = std.Titles.create('hardcore-mode', 'hardcore-title')
-    .Text.Female.enGB.set('the Immortal')
-    .Text.Male.enGB.set('the Immortal')
+    .Text.Female.enGB.set('%s the Immortal')
+    .Text.Male.enGB.set('%s the Immortal')
 
 console.log(HARDCORE_TITLE.ID)
 
